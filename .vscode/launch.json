@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Langchain: Run main.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/langchain/main.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/langchain/.env",
+      "cwd": "${workspaceFolder}/langchain"
+    },
+    {
+      "name": "Search-Agent: Run main.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/search-agent/main.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/search-agent/.env",
+      "cwd": "${workspaceFolder}/search-agent"
+    },
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

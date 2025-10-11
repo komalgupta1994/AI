@@ -1,0 +1,13 @@
+# Environments
+.env
+.env/
+venv/
+env/
+# virtualenv
+.venv
+.venv/
+bin/
+include/
+lib/
+lib64/
+local/
